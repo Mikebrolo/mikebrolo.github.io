@@ -178,7 +178,7 @@ const dialogues = [
 ];
 
 
-let currentIndex = 10;
+let currentIndex = 0;
 let pos = 0;
 let posY = window.innerHeight - document.getElementById("livePusheen").offsetHeight;
 let speed = 1;
