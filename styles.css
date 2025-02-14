@@ -1,0 +1,132 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	height: 90px;
+	width: 75%;
+	min-width: 50%;
+	background-color: #cc8b86;
+	margin: auto;
+	border-radius: 10px;
+	font-size: 20px;
+	border: solid;
+}
+
+body {
+	background-color: #e0e0ce;
+	height: 100vh;
+	/*overflow: hidden;*/
+}
+
+::-webkit-scrollbar {
+		display: none;
+	}
+
+h1 {
+	color: white;
+	font-family: sans-serif;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #7D4F50;
+	width: 50%;
+	margin: auto;
+	border: solid;
+	border-radius: 15px;
+}
+
+.button, .movableButton {
+	width: 125px;
+	height: 50px;
+	margin: 20px;
+	background-color: #DBF9F4;
+	border-radius: 10px;
+	border: solid #cc8b86;
+}
+
+.movableButton {
+	position: absolute;
+	top: 85%;
+	left: 85%;
+	display:none;
+}
+
+.movableButton {
+	
+}
+
+button:hover {
+	background-color: white;
+}
+
+.livePusheen {
+	position: absolute;
+	height: auto;
+	bottom: 0;
+	display: none;
+}
+
+.pusheenImage {
+	height: 100px;
+	width: 100px;
+	transform: rotate(0deg);
+}
+
+.dialog {
+	text-align: center;
+	width: 500px;
+	border-radius: 20px;
+	border: solid;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.dialog h1 {
+	color: black;
+}
+
+.pusheen {
+	border: solid;
+	display: block;
+	width: 50%;
+	background-color: #7D4F50;
+	margin: 50px auto;
+	border-radius: 20px;
+}
+
+.pusheen img {
+	display: block;
+	height: auto;
+	max-height: 300px;
+	min-height: 250px;
+	width: 50%;
+	max-width: 300px;
+	min-height: 250px;
+	margin: 0 auto;
+}
+
+
+/* ----gallery page---- */
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 50%;
+	justify-content: center;
+	margin: auto;
+	gap: 2px;
+}
+
+.container {
+	display: flex;
+	height: 150px;
+	width: 200px;
+	background-color: #7D4F50;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+}
